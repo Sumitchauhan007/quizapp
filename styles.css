@@ -1,0 +1,59 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #141414; /* Netflix-like dark background color */
+    color: #fff; /* White text color */
+  }
+  
+  #quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #333; /* Darker background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #e50914; /* Netflix red color */
+  }
+  
+  #question-container {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  #options-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #e50914; /* Netflix red color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #b2070e; /* Darker red on hover */
+  }
+  
+  button.correct {
+    background-color: rgba(229, 9, 20, 0.7); /* Red with transparency */
+  }
+  
+  button.incorrect {
+    background-color: rgba(255, 51, 51, 0.7); /* Lighter red with transparency */
+  }
+  
